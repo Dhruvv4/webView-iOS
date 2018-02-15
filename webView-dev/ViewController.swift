@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func homeBtnWasPressed(_ sender: UIButton) {
-        let url = "www.google.in"
+        let url = "www.google.com"
         let comeplete_url = "\(BASE_URL)\(url)"
         webView.loadRequest(URLRequest(url: URL(string: comeplete_url)!))
     }

@@ -8,4 +8,4 @@
 
 import UIKit
 
-let BASE_URL = "https://"
+let BASE_URL = "http://"
