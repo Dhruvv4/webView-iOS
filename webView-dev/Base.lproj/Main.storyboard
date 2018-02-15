@@ -85,7 +85,7 @@
                                     <constraint firstItem="bgW-1A-gQr" firstAttribute="top" secondItem="r6p-BX-fkO" secondAttribute="top" id="y7k-sG-TFF"/>
                                 </constraints>
                             </view>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ekR-Xk-69g">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ekR-Xk-69g">
                                 <rect key="frame" x="16" y="20" width="298" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Onu-jl-Nla"/>

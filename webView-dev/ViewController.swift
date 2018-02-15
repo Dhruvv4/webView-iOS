@@ -37,6 +37,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         textFld.resignFirstResponder()
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
     @IBAction func backBtnWasPressed(_ sender: UIButton) {
             webView.goBack()
     }
