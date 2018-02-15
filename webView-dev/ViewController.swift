@@ -16,8 +16,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var forwardBtn: UIButton!
     @IBOutlet weak var reloadBtn: UIButton!
     
-    let BASE_URL = "https://"
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         textFld.delegate = self
